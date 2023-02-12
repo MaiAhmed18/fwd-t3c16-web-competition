@@ -1,4 +1,26 @@
+
+
+# ignore compiled declaration files
+*.d.ts
+
+# ignore compiled source map files
+*.map
+
+# ignore the node_modules directory
+node_modules/
+
+# ignore the dist directory
+dist/
+
+# ignore VS Code settings and config files
+.vscode/
+
+# ignore log files
+*.log
+
+# ignore test results
+test-results/
+
+# ignore coverage reports
+coverage/
 .env
-node_modules
-yarn.lock
-yarn-error.log

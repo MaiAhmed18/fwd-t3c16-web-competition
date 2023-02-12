@@ -1,0 +1,5 @@
+CREATE TABLE movies (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(64) NOT NULL,
+    release_date DATE NOT NULL DEFAULT CURRENT_DATE
+);

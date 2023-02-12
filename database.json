@@ -1,41 +1,16 @@
 {
-  "defaultEnv": {
-    "ENV": "NODE_ENV"
-  },
   "dev": {
     "driver": "pg",
-    "host": {
-      "ENV": "POSTGRES_HOST"
-    },
-    "port": {
-      "ENV": "POSTGRES_PORT"
-    },
-    "database": {
-      "ENV": "POSTGRES_DB"
-    },
-    "user": {
-      "ENV": "POSTGRES_USER"
-    },
-    "password": {
-      "ENV": "POSTGRES_PASSWORD"
-    }
+    "host": "localhost",
+    "database": "movies_users_dev",
+    "user": {"ENV": "POSTGRES_USER"},
+    "password": {"ENV": "POSTGRES_PASSWORD"}
   },
   "test": {
     "driver": "pg",
-    "host": {
-      "ENV": "POSTGRES_HOST"
-    },
-    "port": {
-      "ENV": "POSTGRES_PORT"
-    },
-    "database": {
-      "ENV": "POSTGRES_DB_TEST"
-    },
-    "user": {
-      "ENV": "POSTGRES_USER"
-    },
-    "password": {
-      "ENV": "POSTGRES_PASSWORD"
-    }
+    "host": "localhost",
+    "database": "movies_users_test",
+    "user": "test_user",
+    "password": "password123"
   }
 }
